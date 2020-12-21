@@ -1,0 +1,122 @@
+//msg_sucess = ini variable yang mengecek apakah data yang dimasukan sesuai atau tidak,
+misalkan username dan pass bener tapi di halaman munculnya eror itu nanti tester mendetect itu eror
+
+function checklogin(username,password){
+	if (username = true and password = true) 
+		if (msg_sucess = false){
+			print('Output Error')
+		}else if (msg_sucess = true){
+			print('Output Succes')
+		}
+	else if (username = false and password = true)
+		if (msg_sucess = false){
+			print('Output Error')
+		}else if (msg_sucess = true){
+			print('Output Succes')
+		}
+	else if (username = true and password = false)
+		if (msg_sucess = false){
+			print('Output Error')
+		}else if (msg_sucess = true){
+			print('Output Succes')
+		}
+	else 
+		if (msg_sucess = false){
+			print('Output Error')
+		}else if (msg_sucess = true){
+			print('Output Succes')
+		}
+}
+
+function checkcreate_gist(){
+	if (upload_status = sucess){
+		if (msg_sucess = false){
+			print('Output Error')
+		}else if (msg_sucess = true){
+			print('Output Succes')
+		}
+	}
+	else {
+		if (msg_sucess = false){
+			print('Output Error')
+		}else if (msg_sucess = true){
+			print('Output Succes')
+		}
+	}
+}
+
+function checkviewlistgist(){
+	if (viewlist = sucess){
+		if (msg_sucess = false){
+			print('Output Error')
+		}else if (msg_sucess = true){
+			print('Output Succes')
+		}
+	}
+	else {
+		if (msg_sucess = false){
+			print('Output Error')
+		}else if (msg_sucess = true){
+			print('Output Succes')
+		}
+	}
+}
+
+function checkdeletegist(){
+	if (delete_status = sucess){
+		if (msg_sucess = false){
+			print('Output Error')
+		}else if (msg_sucess = true){
+			print('Output Succes')
+		}
+	}
+	else {
+		if (msg_sucess = false){
+			print('Output Error')
+		}else if (msg_sucess = true){
+			print('Output Succes')
+		}
+	}
+}
+
+function checkupdategist(){
+	if (update_status = sucess){
+		if (msg_sucess = false){
+			print('Output Error')
+		}else if (msg_sucess = true){
+			print('Output Succes')
+		}
+	}
+	else {
+		if (msg_sucess = false){
+			print('Output Error')
+		}else if (msg_sucess = true){
+			print('Output Succes')
+		}
+	}
+}
+
+function checklogout(){
+	if (destroy_session = sucess){
+		if (msg_sucess = false){
+			print('Output Error')
+		}else if (msg_sucess = true){
+			print('Output Succes')
+		}
+	}
+	else {
+		if (msg_sucess = false){
+			print('Output Error')
+		}else if (msg_sucess = true){
+			print('Output Succes')
+		}
+	}
+}
+
+main program :
+checklogin(username,password);
+checkcreate_gist();
+checkviewlistgist();
+checkdeletegist();
+checkupdategist();
+checklogout();
